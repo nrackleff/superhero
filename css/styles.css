@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+	font:15px arial,sans-serif;
+	margin: 2em;
+}
+table {
+	border: 1px solid #666;
+	border-collapse: collapse;
+	width: 350px;
+	margin: 1em 0;
+}
+th, td {
+	padding: .5em 1em;
+	border: 1px solid #666;
+}
+td.score {
+	text-align: right;
+	width: 40%;
+}
+a {
+	text-decoration: none;
+}
+#new-item {
+	width: 190px;
+	border: 1px solid #666;
+	padding: 2px 10px;
+}
